@@ -1,0 +1,123 @@
+h1 {
+    font-family: 'Ubuntu', serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    /*text-shadow: 4px 4px 4px #bbb;*/
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -5px;
+    word-spacing: 0em;
+    line-height: 1.2;
+    color: rgba(148,155,81,1);
+}
+
+h1 strong {
+    color: rgba(108,115,41,1);
+}
+
+html {
+    /*background-color: #191919;*/
+    color: #fff;
+}
+
+body {
+    width: 900px;
+    margin: 1em auto;
+}
+
+.clear {
+    clear:both;
+}
+
+h1 {
+    /*font-size: 100px;*/
+    /*color: rgba(185,45,4,0.85);*/
+}
+
+#stats span {
+    background: url(../images/person-50.png) 0 0 no-repeat;
+    display: block;
+    width: 22px;
+    height: 47px;
+    float: left;
+}
+
+#stats h2 {
+    clear: left;
+    font-size: 90px;
+    color: #949988;
+}
+
+#stats .wrapper
+{
+    float: left;
+    clear: left;
+    margin-bottom: 50px;
+    /*width: 850px;*/
+}
+
+.icon {
+    background: url(../images/browsers-128.png) 0 0 no-repeat;
+    width: 145px;
+    height: 130px;
+    float: left;
+    margin-right: 20px;
+}
+
+#chrome .icon {
+    background-position: 0 0;
+}
+
+#firefox .icon {
+    background-position: -145px 0;
+}
+
+#safari .icon {
+    background-position: -415px 0;
+}
+
+#ie .icon {
+    background-position: -562px 0;
+}
+
+#win .icon {
+    background: url(../images/windows.png) 0 0 no-repeat;
+}
+
+#mac .icon {
+    background: url(../images/apple.png) 0 0 no-repeat;
+}
+
+#nix .icon {
+    background: url(../images/tux.png) 0 0 no-repeat;
+}
+
+.peeps {
+    width: 443px;
+    float: left;
+    margin-right: 20px;
+}
+
+#stats .num {
+    font-family: 'Ubuntu', serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -5px;
+    word-spacing: 0em;
+    line-height: 1.2;
+    display: block;
+    background: none;
+    width: 200px;
+    height:200px;
+    color: rgba(55,47,0,0.3);
+    float: left;
+    margin-top: -35px;
+}
+
+
+
+
